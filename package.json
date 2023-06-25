@@ -10,27 +10,32 @@
     "generate": "drizzle-kit generate:pg --config=drizzle.config.ts",
     "introspect": "drizzle-kit introspect:pg --config=drizzle.config.ts",
     "drop": "drizzle-kit drop --config=drizzle.config.ts",
-    "migrate": "tsx -r dotenv/config ./src/db/migrate.ts"
+    "migrate": "tsx -r dotenv/config ./src/server/migrate.ts"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.21.8",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-slot": "^1.0.2",
     "@types/node": "20.3.1",
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
     "autoprefixer": "10.4.14",
     "class-variance-authority": "^0.6.0",
     "clsx": "^1.2.1",
-    "dotenv": "^16.3.1",
     "drizzle-orm": "^0.27.0",
-    "eslint": "8.43.0",
-    "eslint-config-next": "13.4.6",
+    "drizzle-zod": "^0.4.4",
+    "eslint": "^8.43.0",
+    "eslint-config-next": "^12.0.4",
     "lucide-react": "^0.244.0",
     "next": "13.4.6",
     "postcss": "8.4.24",
     "postgres": "^3.3.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.44.3",
     "react-markdown": "^8.0.7",
     "react-query": "^3.39.3",
+    "remark-gfm": "^3.0.1",
     "tailwind-merge": "^1.13.2",
     "tailwindcss": "3.3.2",
     "tailwindcss-animate": "^1.0.6",
@@ -39,6 +44,7 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
+    "dotenv": "^16.3.1",
     "drizzle-kit": "^0.19.1"
   }
 }

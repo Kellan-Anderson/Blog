@@ -8,6 +8,13 @@
       "when": 1687047029751,
       "tag": "0000_lonely_grey_gargoyle",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1687113839261,
+      "tag": "0001_hot_the_hand",
+      "breakpoints": true
     }
   ]
 }
