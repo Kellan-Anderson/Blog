@@ -76,27 +76,27 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply text-4xl;
-    @apply font-bold;
-  }
-  h2 {
     @apply text-3xl;
     @apply font-bold;
   }
-  h3 {
+  h2 {
     @apply text-2xl;
     @apply font-bold;
   }
-  h4 {
+  h3 {
     @apply text-xl;
-    @apply font-semibold;
+    @apply font-bold;
   }
-  h5 {
+  h4 {
     @apply text-base;
     @apply font-semibold;
   }
-  h6 {
+  h5 {
     @apply text-sm;
+    @apply font-semibold;
+  }
+  h6 {
+    @apply text-xs;
     @apply font-semibold;
   }
 }
